@@ -17,14 +17,38 @@ body {
 	font-size: 36px;
 	font-family: cursive;
 	}
-	h1 {
-		background-color: yellow;
-		font-color: white;
-		font-weight: bold;
-		font-size: 48px;
-		font-family: Trebuchet;
-
+header {
+	padding-top: 20px;
+	height: 87px;
 	}
+h1 {
+	background-color: yellow;
+	font-color: white;
+	font-weight: bold;
+	font-size: 48px;
+	font-family: Trebuchet;
+	}
+h2 {}
+h3 {}
+img {}
+p{
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: Helvetica;
+	}
+footer {
+  clear: both;
+  padding: 3em 10%;
+  color: white;
+  background: green none repeat scroll 0% 0%;
+  text-align: center;
+	}
+footer a:link, footer a:visited {
+	margin-right: 20px;
+	}
+
 
 /* override css for mobile browsers */
 @media all and (min-width:320px) and (max-width:400px) {
